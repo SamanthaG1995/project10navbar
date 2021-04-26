@@ -1,3 +1,7 @@
+*{
+
+}
+
 /* styles applied to the navbar */
 nav {
   background-color: #f4f4f4;
@@ -35,4 +39,10 @@ nav a {
   font-family: Arial, Helvetica, sans-serif;
   color: #ff4ba5;
   text-align: right;
+}
+h1{
+font-family: fantasy;
+text-decoration: none;
+color: #707070;
+padding-left: 30px;
 }
