@@ -29,7 +29,8 @@ li {
 }
 .logo img {
   position: absolute;
-  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 0;
 }
 /* Styles only applied to each individual link in the nav bar */
 nav a {
@@ -41,7 +42,61 @@ nav a {
 }
 h1 {
   font-family: fantasy;
-  text-decoration: none;
   color: #707070;
   padding-left: 30px;
+  font-size: 35px;
+}
+p {
+  background-color: #c4c4c4;
+  width: 100%;
+  float: left;
+  padding-top: 5px;
+  margin: 10px;
+  height: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+  font-size: 21px;
+}
+.column {
+  width: 48%;
+  float: left;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 1000px;
+}
+.container .p1 {
+  background-color:#C4C4C4;
+  width: 68%;
+  float: left;
+  height: 220px;
+  padding: 5px;
+}
+img{
+  padding-left: 60px;
+  padding-top: 10px;
+  border-radius: 30px;
+  
+}
+.container .p2 {
+  background-color:#C4C4C4;
+  width: 68%;
+  float: left;
+  height: 145px;
+  padding: 5px;
+}
+.container .p3 {
+  background-color:#C4C4C4;
+  width: 68%;
+  float: left;
+  height: 220px;
+  padding: 5px;
+}
+footer{
+  background-color: #ff4ba5;
+  height: 30%;
 }
