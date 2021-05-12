@@ -1,4 +1,6 @@
+/* styles applied to the whole code */
 * {
+  box-sizing: border-box;
 }
 
 /* styles applied to the navbar */
@@ -7,31 +9,43 @@ nav {
   width: 100%;
   overflow: auto;
   height: 60px;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
 }
 
 /* Styles only applied when hovering over the link */
 nav a:hover {
   color: black;
 }
+
+ /* Styles applied to the body */
 body {
   margin: 0;
   padding: 0;
 }
+
+/* Styles applied to the unordered list */
 ul {
   margin-left: auto;
   margin-right: auto;
   list-style: none;
 }
+
+/* Styles applied to the list */
 li {
   float: right;
   display: inline-block;
   width: 12%;
 }
+
+/* Styles applied to the image */
 .logo img {
   position: absolute;
   padding-left: 20px;
   padding-top: 0;
 }
+
 /* Styles only applied to each individual link in the nav bar */
 nav a {
   font-size: 24px;
@@ -40,12 +54,18 @@ nav a {
   color: #ff4ba5;
   text-align: right;
 }
+
+/* styles applied to the header */
 h1 {
   font-family: fantasy;
   color: #707070;
   padding-left: 30px;
-  font-size: 35px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
 }
+
+/* styles applied to the paragraph */
 p {
   background-color: #c4c4c4;
   width: 100%;
@@ -59,44 +79,77 @@ p {
   border-radius: 20px;
   font-size: 21px;
 }
-.column {
-  width: 48%;
-  float: left;
-}
+
+
+/* styles applied to the container */
 .container {
   width: 1400px;
   margin: 0 auto;
   padding: 10px;
-  height: 1000px;
+  height: 870px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
+
+/* styles applied to the container paragraph 1 */
 .container .p1 {
   background-color:#C4C4C4;
   width: 68%;
   float: left;
-  height: 220px;
+  height: 230px;
   padding: 5px;
 }
+
+/* styles applied to the images */
 img{
   padding-left: 60px;
   padding-top: 10px;
-  border-radius: 30px;
+
   
 }
+
+/* styles applied to the container paragraph 2 */
 .container .p2 {
   background-color:#C4C4C4;
   width: 68%;
   float: left;
-  height: 145px;
+  height: 155px;
   padding: 5px;
 }
+
+/* styles applied to the container paragraph 3 */
 .container .p3 {
   background-color:#C4C4C4;
   width: 68%;
   float: left;
-  height: 220px;
+  height: 250px;
   padding: 5px;
 }
+
+/* styles applied to the footer */
 footer{
   background-color: #ff4ba5;
-  height: 30%;
+  height: 350px;
+
 }
+
+h2{
+  text-align: center;
+  font-family: fantasy;
+  color: #707070;
+  padding-left: 30px;
+  font-size:30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* styles applied to the container */
+.containercp {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 870px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
