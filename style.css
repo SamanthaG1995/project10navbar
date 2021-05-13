@@ -86,7 +86,7 @@ p {
   width: 1400px;
   margin: 0 auto;
   padding: 10px;
-  height: 870px;
+  height: 900px;
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -176,3 +176,11 @@ h2{
   height: 140px;
   padding: 5px;
 }
+.footer{
+font-size: 30px;
+
+}
+.footer.f1{
+  text-align: right;
+}
+
