@@ -66,6 +66,7 @@ h1 {
 }
 
 /* styles applied to the paragraph */
+/* styles applied to the paragraph */
 p {
   background-color: #c4c4c4;
   width: 100%;
@@ -79,7 +80,6 @@ p {
   border-radius: 20px;
   font-size: 21px;
 }
-
 
 /* styles applied to the container */
 .container {
@@ -102,10 +102,8 @@ p {
 
 /* styles applied to the images */
 img{
-  padding-left: 60px;
+  padding-left: 50px;
   padding-top: 10px;
-
-  
 }
 
 /* styles applied to the container paragraph 2 */
@@ -147,9 +145,34 @@ h2{
 .containercp {
   width: 1400px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 230px;
   height: 870px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
+
+/* styles applied to the container paragraph 1 */
+.container .p4 {
+  background-color:#C4C4C4;
+  width: 68%;
+  float: left;
+  height: 190px;
+  padding: 5px;
+}
+/* styles applied to the container paragraph 1 */
+.container .p5 {
+  background-color:#C4C4C4;
+  width: 68%;
+  float: left;
+  height: 210px;
+  padding: 5px;
+}
+/* styles applied to the container paragraph 1 */
+.container .p6 {
+  background-color:#C4C4C4;
+  width: 68%;
+  float: left;
+  height: 140px;
+  padding: 5px;
+}
