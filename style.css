@@ -9,9 +9,9 @@ nav {
   width: 100%;
   overflow: auto;
   height: 60px;
-  position: fixed; 
+  position: fixed;
   top: 0;
-  width: 100%; 
+  width: 100%;
 }
 
 /* Styles only applied when hovering over the link */
@@ -19,7 +19,7 @@ nav a:hover {
   color: black;
 }
 
- /* Styles applied to the body */
+/* Styles applied to the body */
 body {
   margin: 0;
   padding: 0;
@@ -36,7 +36,8 @@ ul {
 li {
   float: right;
   display: inline-block;
-  width: 12%;
+  width: 15%;
+  padding-right: 20px;
 }
 
 /* Styles applied to the image */
@@ -93,7 +94,7 @@ p {
 
 /* styles applied to the container paragraph 1 */
 .container .p1 {
-  background-color:#C4C4C4;
+  background-color: #c4c4c4;
   width: 68%;
   float: left;
   height: 230px;
@@ -101,14 +102,14 @@ p {
 }
 
 /* styles applied to the images */
-img{
+img {
   padding-left: 50px;
   padding-top: 10px;
 }
 
 /* styles applied to the container paragraph 2 */
 .container .p2 {
-  background-color:#C4C4C4;
+  background-color: #c4c4c4;
   width: 68%;
   float: left;
   height: 155px;
@@ -117,7 +118,7 @@ img{
 
 /* styles applied to the container paragraph 3 */
 .container .p3 {
-  background-color:#C4C4C4;
+  background-color: #c4c4c4;
   width: 68%;
   float: left;
   height: 250px;
@@ -125,18 +126,17 @@ img{
 }
 
 /* styles applied to the footer */
-footer{
+footer {
   background-color: #ff4ba5;
   height: 350px;
-
 }
 
-h2{
+h2 {
   text-align: center;
   font-family: fantasy;
   color: #707070;
   padding-left: 30px;
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   padding-top: 15px;
 }
@@ -151,10 +151,9 @@ h2{
   padding-bottom: 20px;
 }
 
-
 /* styles applied to the container paragraph 1 */
 .container .p4 {
-  background-color:#C4C4C4;
+  background-color: #c4c4c4;
   width: 68%;
   float: left;
   height: 190px;
@@ -162,7 +161,7 @@ h2{
 }
 /* styles applied to the container paragraph 1 */
 .container .p5 {
-  background-color:#C4C4C4;
+  background-color: #c4c4c4;
   width: 68%;
   float: left;
   height: 210px;
@@ -170,17 +169,17 @@ h2{
 }
 /* styles applied to the container paragraph 1 */
 .container .p6 {
-  background-color:#C4C4C4;
+  background-color: #c4c4c4;
   width: 68%;
   float: left;
   height: 140px;
   padding: 5px;
 }
-.footer{
-font-size: 30px;
-
-}
-.footer.f1{
-  text-align: right;
+.footer {
+  font-size: 30px;
 }
 
+.Footer .li {
+  text-align: center;
+  padding-right: 20px;
+}
