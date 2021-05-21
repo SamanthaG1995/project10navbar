@@ -1,9 +1,9 @@
-/* styles applied to the whole code */
+/* Styles applied to the whole code*/
 * {
   box-sizing: border-box;
 }
 
-/* styles applied to the navbar */
+/* Styles applied to the nav bar*/
 nav {
   background-color: #f4f4f4;
   width: 100%;
@@ -11,28 +11,28 @@ nav {
   height: 60px;
   position: fixed;
   top: 0;
-  width: 100%;
+
 }
 
-/* Styles only applied when hovering over the link */
+/* Styles applied to the nav bar links while hovering*/
 nav a:hover {
   color: black;
 }
 
-/* Styles applied to the body */
+/* Styles applied to the body*/
 body {
   margin: 0;
   padding: 0;
 }
 
-/* Styles applied to the unordered list */
+/* Styles applied to the unordered links*/
 ul {
   margin-left: auto;
   margin-right: auto;
   list-style: none;
 }
 
-/* Styles applied to the list */
+/* Styles applied to the listed links*/
 li {
   float: right;
   display: inline-block;
@@ -40,14 +40,14 @@ li {
   padding-right: 20px;
 }
 
-/* Styles applied to the image */
+/* Styles applied to the image/logo in the nav bar*/
 .logo img {
   position: absolute;
   padding-left: 20px;
   padding-top: 0;
 }
 
-/* Styles only applied to each individual link in the nav bar */
+/* Styles applied to the links in the nav bar*/
 nav a {
   font-size: 24px;
   text-decoration: none;
@@ -56,7 +56,7 @@ nav a {
   text-align: right;
 }
 
-/* styles applied to the header */
+/* Styles applied to the header*/
 h1 {
   font-family: fantasy;
   color: #707070;
@@ -66,8 +66,7 @@ h1 {
   padding-top: 20px;
 }
 
-/* styles applied to the paragraph */
-/* styles applied to the paragraph */
+/* Styles applied to the paragraphs*/
 p {
   background-color: #c4c4c4;
   width: 100%;
@@ -82,7 +81,7 @@ p {
   font-size: 21px;
 }
 
-/* styles applied to the container */
+/* Styles applied to the container*/
 .container {
   width: 1400px;
   margin: 0 auto;
@@ -92,7 +91,7 @@ p {
   padding-bottom: 20px;
 }
 
-/* styles applied to the container paragraph 1 */
+/* Styles applied to pargraph 1 in the container*/
 .container .p1 {
   background-color: #c4c4c4;
   width: 68%;
@@ -101,13 +100,13 @@ p {
   padding: 5px;
 }
 
-/* styles applied to the images */
+/* Styles applied to the images*/
 img {
-  padding-left: 50px;
+  padding-left: 60px;
   padding-top: 10px;
 }
 
-/* styles applied to the container paragraph 2 */
+/* Styles applied to paragraph 2 in the container*/
 .container .p2 {
   background-color: #c4c4c4;
   width: 68%;
@@ -116,7 +115,7 @@ img {
   padding: 5px;
 }
 
-/* styles applied to the container paragraph 3 */
+/* Styles applied to pargraph 3 in the container */
 .container .p3 {
   background-color: #c4c4c4;
   width: 68%;
@@ -125,12 +124,7 @@ img {
   padding: 5px;
 }
 
-/* styles applied to the footer */
-footer {
-  background-color: #ff4ba5;
-  height: 350px;
-}
-
+/* Styles applied to the header*/
 h2 {
   text-align: center;
   font-family: fantasy;
@@ -141,17 +135,17 @@ h2 {
   padding-top: 15px;
 }
 
-/* styles applied to the container */
-.containercp {
-  width: 1400px;
+/* Styles applied to the container on the visit page*/
+.containervp {
+  width: 100%;
   margin: 0 auto;
   padding: 230px;
-  height: 870px;
+  height: 614px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* styles applied to the container paragraph 1 */
+/* Styles applied to pargraph 4 in the container*/
 .container .p4 {
   background-color: #c4c4c4;
   width: 68%;
@@ -159,7 +153,8 @@ h2 {
   height: 190px;
   padding: 5px;
 }
-/* styles applied to the container paragraph 1 */
+
+/* Styles applied to pargraph 5 in the container*/
 .container .p5 {
   background-color: #c4c4c4;
   width: 68%;
@@ -167,7 +162,8 @@ h2 {
   height: 210px;
   padding: 5px;
 }
-/* styles applied to the container paragraph 1 */
+
+/* Styles applied to pargraph 6 in the container*/
 .container .p6 {
   background-color: #c4c4c4;
   width: 68%;
@@ -175,11 +171,26 @@ h2 {
   height: 140px;
   padding: 5px;
 }
-.footer {
-  font-size: 30px;
+
+/* Styles applied to the footer*/
+footer {
+  left: 0;
+  bottom: 0;
+  height: 180px;
+  background-color: #ff4ba5;
+  text-align: left;
+  font-size: 25px;
+  text-decoration: none;
+  width: 100%;
+  padding-right: 15px;
+
+/* Styles applied to the hover colour in the footer*/
+}
+ a:hover {
+  color: black;
 }
 
-.Footer .li {
-  text-align: center;
-  padding-right: 20px;
+/* Styles applied to the links in the footer*/
+li a{
+ padding-right: 10px;
 }
